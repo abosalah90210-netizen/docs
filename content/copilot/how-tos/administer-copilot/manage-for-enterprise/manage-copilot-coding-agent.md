@@ -20,8 +20,6 @@ contentType: how-tos
 ---
 
 > [!NOTE]
-> {% data reusables.copilot.coding-agent.preview-note-text %}
->
 > For an introduction to {% data variables.copilot.copilot_coding_agent %}, see [AUTOTITLE](/copilot/concepts/about-copilot-coding-agent).
 
 ## Prerequisites
@@ -60,8 +58,14 @@ You can choose to stop anyone using the agent in some or all of your repositorie
 
 Alternatively, you can disable the agent for all repositories owned by your enterprise.
 
+<!-- expires 2025-10-20 -->
+<!-- Part of the Copilot direct licensing rollout -->
+<!-- Expired content will be addressed by the Drivers team -->
+
 {% data reusables.enterprise-accounts.access-enterprise %}
 {% data reusables.enterprise-accounts.policies-tab %}
 {% data reusables.enterprise-accounts.copilot-tab %}
 {% data reusables.enterprise-accounts.copilot-policies-tab %}
 1. Select **Block {% data variables.copilot.copilot_coding_agent %} in all enterprise repositories**.
+
+<!-- end expires 2025-10-20 -->
